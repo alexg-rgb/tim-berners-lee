@@ -1,0 +1,134 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F0F0F0;
+    text-align: justify;
+    font-size: medium;
+    margin-left: 10%;
+    padding: 150px;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 590px;
+    grid-template-rows: 400px 200px 700px;
+    grid-template-areas:
+        "introduction"
+        "socialMedia"
+        "movies";
+    grid-gap: 20px;
+
+}
+
+.introduction {
+    grid-area: introduction;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.socialMedia {
+    grid-area: socialMedia;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+
+}
+
+.movies {
+    grid-area: movies;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+
+}
+
+.berners {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #F0F0F0;
+    margin-top: 15px;
+
+}
+
+.firstTitle {
+    color: red;
+    text-align: center;
+}
+
+.secondTitle {
+    color: rgb(151, 143, 143);
+}
+
+.cv {
+    margin-left: 15px;
+    margin-right: 2px;
+    text-align: left;
+    color: grey;
+}
+
+.button {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.socialMedia a {
+    color: #d8d8d8;
+    text-align: center;
+}
+
+.socialMedia span {
+    text-align: center;
+}
+
+.movies img {
+    width: 100px;
+    height: 130px
+}
+
+.fourthTitle {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.fifthTile {
+    text-align: center;
+}
+
+.sixthTitle {
+    text-align: center;
+}
+
+.movies {
+    color: grey;
+}
+
+.space {
+    text-align: left;
+    margin-left: 25px;
+    margin-right: 30px;
+}
+
+.hulot {
+    text-align: left;
+    margin-left: 25px;
+    margin-right: 30px;
+
+}
+
+.alien {
+    text-align: left;
+    margin-left: 25px;
+    margin-right: 30px;
+
+}
+
+.movies img {
+    margin-left: 25px;
+}
